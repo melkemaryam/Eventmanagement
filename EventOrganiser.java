@@ -1,5 +1,5 @@
 
-public class EventOrganiser extends Student {
+public class EventOrganiser { //extends Student
 
     int studentId;
     int universityId;
@@ -20,7 +20,7 @@ public class EventOrganiser extends Student {
         lastName = last;
         email = mail;
         role = rol;
-        
+
     }
 
     public static void main (String [] args) {

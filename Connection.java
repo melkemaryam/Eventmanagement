@@ -1,6 +1,7 @@
 
 public class Connection {
 
+    private static Connection c = null;
 
     int connectionId;
     String hostName;
@@ -9,13 +10,13 @@ public class Connection {
     String password;
 
     //Constructor
-    public Connection(int conId, String host, String db, String user, String pass) {
+    public Connection(int connectionId, String hostname, String database, String username, String password) {
 
-        connectionId = conId;
-        hostName = host;
-        database = db;
-        username = user;
-        password = pass;
+        this.connectionId = connectionId;
+        this.hostName = hostname;
+        this.database = database;
+        this.username = username;
+        this.password = password;
     }
 
     public static void main (String [] args) {

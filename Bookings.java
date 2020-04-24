@@ -6,11 +6,37 @@ public class Bookings {
     String status; // or int status if every status has a number: e.g. 1 = cancelled, etc...
 
     //Constructor
-    public Bookings(int bookId, int dateBook, String stat){
+    //public Bookings(int bookingId, int dateOfBooking, String status){
 
-        bookingId = bookId;
-        dateOfBooking = dateBook;
-        status = stat;
+        //this.bookingId = bookingId;
+        //this.dateOfBooking = dateOfBooking;
+        //this.status = status;
+    //}
+
+    //getter and setter methods
+
+    public int getBookingId() {
+        return bookingId;
+    }
+
+    public void setBookingId(int bookingId) {
+        this.bookingId = bookingId;
+    }
+
+    public int getDateOfBooking() {
+        return dateOfBooking;
+    }
+
+    public void setDateOfBooking(int dateOfBooking) {
+        this.dateOfBooking = dateOfBooking;
+    }
+
+    public String getStatus(){
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public static void main (String[] args){

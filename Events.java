@@ -14,18 +14,98 @@ public class Events {
     boolean bookingRequired;
 
     //Constructor
-    public Events(int eveId, String eveName, String desc, String cat, int dat, int tim, String loc, int roomNo, String pla, boolean bookReq){
+    //public Events(int eventId, String eventName, String description, String category, int date, int time, String location, int roomNumber, String place, boolean bookingRequired){
 
-        eventId = eveId;
-        eventName = eveName;
-        description = desc;
-        category = cat;
-        date = dat;
-        time = tim;
-        location = loc;
-        roomNumber = roomNo;
-        place = pla;
-        bookingRequired = bookReq;
+        //this.eventId = eventId;
+        //this.eventName = eventName;
+        //this.description = description;
+        //this.category = category;
+        //this.date = date;
+        //this.time = time;
+        //this.location = location;
+        //this.roomNumber = roomNumber;
+        //this.place = place;
+        //this.bookingRequired = bookingRequired;
+    //}
+
+    public int getEventId() {
+        return eventId;
+    }
+
+    public void setEventId(int eventId) {
+        this.eventId = eventId;
+    }
+
+    public String getEventName() {
+        return eventName;
+    }
+
+    public void setEventName(String eventName) {
+        this.eventName = eventName;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public int getDate() {
+        return date;
+    }
+
+    public void setDate(int date) {
+        this.date = date;
+    }
+
+    public int getTime() {
+        return time;
+    }
+
+    public void setTime(int time) {
+        this.time = time;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public int getRoomNumber() {
+        return roomNumber;
+    }
+
+    public void setRoomNumber(int roomNumber) {
+        this.roomNumber = roomNumber;
+    }
+
+    public String getPlace() {
+        return place;
+    }
+
+    public void setPlace(String place) {
+        this.place = place;
+    }
+
+    public boolean getBookReq() {
+        return bookingRequired;
+    }
+
+    public void setBookReq(boolean bookingRequired) {
+        this.bookingRequired = bookingRequired;
     }
 
     public static void main (String[] args){}

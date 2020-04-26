@@ -1,36 +1,33 @@
+package Model;
 
-public class EventOrganiser { //extends Student
+public class Administrator {
 
-    int studentId;
-    int universityId;
+    int adminId;
+    int universityId; // not sure if needed
     String password;
     String firstName;
     String lastName;
     String email;
-    String role; // or int role if every role has a number, e. g. student = 1, etc...
 
+    //Constructor
+    //public Administrator (int adminId, int universityId, String password, String firstName, String lastName, String email) {
 
-    // Constructor
-    //public EventOrganiser (int stuId, int uniId, String pass, String first, String last, String mail, String rol) {
-
-        //studentId = stuId;
-        //universityId = uniId;
-        //password = pass;
-        //firstName = first;
-        //lastName = last;
-        //email = mail;
-        //role = rol;
-
+        //this.adminId = adminId;
+        //this.universityId = universityId;
+        //this.password = password;
+        //this.firstName = firstName;
+        //this.lastName = lastName;
+        //this.email = email;
     //}
 
     //getter and setter methods
 
-    public int getStudentId() {
-        return studentId;
+    public int getAdminId() {
+        return adminId;
     }
 
-    public void setStudentId(int studentId) {
-        this.studentId = studentId;
+    public void setAdminId(int adminId) {
+        this.adminId = adminId;
     }
 
     public int getUniId() {
@@ -73,17 +70,8 @@ public class EventOrganiser { //extends Student
         this.email = email;
     }
 
-    public String getRole() {
-        return role;
-    }
-
-    public void setRole(String role) {
-        this.role = role;
-    }
-
     public static void main (String [] args) {
 
 
     }
-
 }

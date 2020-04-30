@@ -7,15 +7,15 @@ public class Events {
     String eventName;
     String description;
     String category;
-    int date;
-    int time;
+    String date;
+    float time;
     String location;
     int roomNumber;
     String place;
     boolean bookingRequired;
 
     //Constructor
-    //public Events(int eventId, String eventName, String description, String category, int date, int time, String location, int roomNumber, String place, boolean bookingRequired){
+    //public Events(int eventId, String eventName, String description, String category, String date, float time, String location, int roomNumber, String place, boolean bookingRequired){
 
         //this.eventId = eventId;
         //this.eventName = eventName;
@@ -61,19 +61,19 @@ public class Events {
         this.category = category;
     }
 
-    public int getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(int date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
-    public int getTime() {
+    public float getTime() {
         return time;
     }
 
-    public void setTime(int time) {
+    public void setTime(float time) {
         this.time = time;
     }
 

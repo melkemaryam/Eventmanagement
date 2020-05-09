@@ -1,3 +1,16 @@
+/*
+-------------------------------------------------
+
+Project: Eventmanagementsystem
+Group: Hexterminators
+
+File name: PasswordManager.java
+
+Created: 1st May 2020
+
+-------------------------------------------------
+*/
+
 package Control;
 
 import java.math.BigInteger;
@@ -6,6 +19,8 @@ import java.security.MessageDigest;
 
 public class PasswordManager {
 
+    // Function name: hashingPassword()
+    // Task: hashes a password
     public static String hashingPassword(String passToHash) throws NoSuchAlgorithmException {
 
         MessageDigest messageDig = MessageDigest.getInstance("SHA-256");

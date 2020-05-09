@@ -1,3 +1,16 @@
+/*
+-------------------------------------------------
+
+Project: Eventmanagementsystem
+Group: Hexterminators
+
+File name: Role.java
+
+Created: 1st May 2020
+
+-------------------------------------------------
+*/
+
 package Model;
 
 public class Role {

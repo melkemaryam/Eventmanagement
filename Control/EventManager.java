@@ -13,17 +13,11 @@ Created: 1st May 2020
 
 package Control;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import java.util.ArrayList;
 import java.sql.Statement;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.ResultSet;
 import java.sql.PreparedStatement;
-import Model.*;
-import Control.DBManager;
 
 public class EventManager {
 

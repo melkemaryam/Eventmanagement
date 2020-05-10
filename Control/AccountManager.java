@@ -82,6 +82,13 @@ public class AccountManager {
         return logInStatus;
     }
 
+    // Function name: logOut()
+    // Task: logs a user out of the system
+    public int logOut(Student playerOne) {
+    
+        return -1; //logInStatus;
+    }
+
     // Function name: retrieveUser()
     // Task: method to retrive user information
     public void retrieveUser(Student playerOne) {
@@ -106,8 +113,16 @@ public class AccountManager {
         DBManager.disconnect();
     }
 
+    // Function name: grantPermission()
+    // Task: grants a student the permission to act as an EventOrganiser
+    public void grantPermission(Student playerOne) {
 
+    }
 
+    // Function name: revokeRights()
+    // Task: revokes then rights from an EventOrganiser
+    public void revokeRights(Student playerOne) {
 
+    }
 
 }

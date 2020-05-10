@@ -59,4 +59,43 @@ public class EventManager {
     
     }
 
+    // Function name: createEvent()
+    // Task: creates a new event in the system
+    public void createEvent() {
+    
+    }
+
+    // Function name: cancelEvent()
+    // Task: cancels and event in the system
+    public void cancelEvent() {
+
+    }
+
+    // Function name: searchEvent()
+    // Task: searches for a special event in the DB
+    public void searchEvent() {
+
+    }
+
+    // Function name: viewAllEvents()
+    // Task: shows all events
+    public void viewAllEvents() {
+
+    }
+
+    // Function name: editEvent()
+    // Task: edits an already existing event in the DB
+    public void editEvent() {
+
+    }
+
+    // Function name: viewOwnEvents()
+    // Task: with this method the EventOrganiser can view their own events
+    public void viewOwnEvents() {
+
+    }
+
+    
+
+
 }

@@ -43,4 +43,22 @@ public class BookingManager {
         DBManager.disconnect();
 
     }
+
+    // Function name: cancelBooking()
+    // Task: cancels a booking
+    public void cancelBooking() {
+
+    }
+
+    // Function name: viewAllBookings()
+    // Task: shows all bookings
+    public void viewAllBookings() {
+
+    }
+
+    // Function name: confirmBooking()
+    // Task: confirms a booking
+    public void confirmBooking() {
+
+    }
 }

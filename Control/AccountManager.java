@@ -52,6 +52,7 @@ public class AccountManager {
             System.err.print("Something went wrong, User was not added to the DB");
         }
         DBManager.disconnect();
+        System.out.println("You have successfully registered.");
     
     }
 
@@ -70,9 +71,12 @@ public class AccountManager {
 
             if (!rs.isBeforeFirst()) {
                 System.out.println("Combination of this UniversityID and password does not exist");
+                //GUI: show message
             }
             else{
                 logInStatus = 1;
+                System.out.println("You have successfully logged in.");
+                //GUI: show message, and go to default window
             }
 
         }catch (SQLException e) {
@@ -85,8 +89,12 @@ public class AccountManager {
     // Function name: logOut()
     // Task: logs a user out of the system
     public int logOut(Student playerOne) {
+        int logInStatus = 0;
+        System.out.println("You have successfully logged out.");
+
+        //GUI: go from current window back to log in window
     
-        return -1; //logInStatus;
+        return logInStatus;
     }
 
     // Function name: retrieveUser()

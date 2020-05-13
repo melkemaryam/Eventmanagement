@@ -62,13 +62,16 @@ public class EventManager {
     // Function name: createEvent()
     // Task: creates a new event in the system
     public void createEvent() {
-    
+        //GUI: show empty window to put values into the empty boxes
     }
 
     // Function name: cancelEvent()
     // Task: cancels and event in the system
     public void cancelEvent() {
 
+        //GUI: ARE YOU SURE? window appears on mouse click
+        System.out.println("You have successfully cancelled the event.");
+        //GUI: show message
     }
 
     // Function name: searchEvent()
@@ -86,16 +89,19 @@ public class EventManager {
     // Function name: editEvent()
     // Task: edits an already existing event in the DB
     public void editEvent() {
-
+        //GUI: make window editable
+        //GUI: Save button for changes
+        System.out.println("You have successfully edited this event.");
+        //GUI: show message
     }
 
     // Function name: viewOwnEvents()
     // Task: with this method the EventOrganiser can view their own events
     public void viewOwnEvents() {
-
+        //GUI: change of window?
     }
 
-    
+
 
 
 }

@@ -42,23 +42,30 @@ public class BookingManager {
         }
         DBManager.disconnect();
 
+        System.out.println("You have successfully booked this event.");
+        //GUI: show message, show in bookingsWindow
     }
 
     // Function name: cancelBooking()
     // Task: cancels a booking
     public void cancelBooking() {
 
+        System.out.println("You have successfully cancelled a booking.");
+        //GUI: show message
+
     }
 
     // Function name: viewAllBookings()
     // Task: shows all bookings
     public void viewAllBookings() {
-
+        //GUI: happens on mouse click, change of window?
     }
 
     // Function name: confirmBooking()
     // Task: confirms a booking
     public void confirmBooking() {
-
+        
+        //GUI: show window with ARE YOU SURE? 
+        System.out.println("You have successfully confirmed the booking.");
     }
 }
